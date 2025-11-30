@@ -1,0 +1,47 @@
+.catalogCard{
+    min-width: 560px;
+    max-width: 560px;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-image: url(../../../../public/img/bluecbk.svg);
+    background-position: bottom -200px left 150px;
+    background-repeat: no-repeat;
+}
+.catalogCard h3{
+    text-decoration: none;
+    font-size: 30px;
+    -webkit-text-stroke: 1px white;
+   color: black;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+}
+.name-catalog{
+    position: absolute;
+    bottom: 29px;
+    left: 25px;
+    color: black;
+    width: 250px;
+    z-index: 10;
+}
+.catalogCard img{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+@media(max-width:585px){
+    .catalogCard{
+        min-width: 320px;
+        max-width: 320px;
+    }
+    .catalogCard h3{
+        font-size: 24px;
+        
+    }
+}

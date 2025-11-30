@@ -1,0 +1,148 @@
+body, *{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #191919;
+    background-image: url(../../public/img/back.svg);
+    background-repeat: repeat-y;
+
+    background-position: 0 80px;
+    background-size: auto;
+}
+.dropBtn {
+    background-color: #3B71B7;
+    color:#191919;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropDown {
+    position: relative;
+    display: inline-block;
+    transition: all 1.3s ease-out;
+    
+     
+}
+
+.dropContent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.dropContent a {
+    color: #191919;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+    
+}
+
+.dropContent a:hover 
+{
+    background-color: #F39200;
+    color: white;
+    
+}
+
+.dropDown:hover .dropContent 
+{
+    display: block;
+}
+
+.dropDown:hover .dropBtn 
+{
+    background-color: #3B71B7;
+    text-decoration: underline;
+    color: white;
+}
+.center {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 92px;
+}
+.header{
+    height: 90px;
+    background-color: #3B71B7;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+main{
+    max-width: 1160px;
+    color: white;
+
+}
+header div {
+    font-size: 16px;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: #191919;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.righr-hd{
+    display: flex;
+    gap: 25px;
+}
+
+:root {
+  font-family: var(--font-visby-regular), sans-serif;
+}
+h2{
+     font-size: 65px;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    color: #FBFBFB;
+}
+h3{
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    color: #191919;
+}
+form input{
+    font-family: var(--font-visby-bold), sans-serif;
+    font-weight: 700;
+}
+
+@media(max-width:650px){
+    .center{
+        gap: 40px;
+    }
+}
+@media(max-width:1190px){
+    main{
+    max-width: 860px;
+
+}
+}
+@media(max-width:880px){
+    main{
+    max-width: 560px;
+
+}
+}
+@media(max-width:585px){
+    main{
+        max-width: 350px;
+    }
+        h2{
+        font-size: 40px;
+    }
+}
+

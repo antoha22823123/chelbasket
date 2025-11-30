@@ -1,0 +1,40 @@
+.galleryContainer {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  width: 760px;
+}
+
+.thumbs {
+  width: 160px;
+  height: 600px;
+}
+
+.thumbsSwiper {
+  height: 100%;
+}
+
+.thumbImage {
+  cursor: pointer;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.thumbImage:hover {
+  transform: scale(1.15);
+}
+
+.mainImage {
+  flex: 1;
+}
+
+.mainSwiper {
+  width: 600px;
+  height: 600px;
+}
+
+.mainImageContent {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

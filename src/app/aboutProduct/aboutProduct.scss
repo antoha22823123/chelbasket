@@ -1,0 +1,90 @@
+.about-page{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+.slider{
+    max-width: 60%;
+    margin-left: 0px
+}
+.page{
+  padding-top: 104px;
+}
+.about-desc{
+  margin-left: 70px;
+}
+ul{
+  list-style: none;
+}
+.size{
+  display: flex;
+  gap: 21px;
+  margin-top: 50px;
+}
+.size li{
+  padding-top: 10px;
+  font-family: var(--font-visby-bold), sans-serif;
+    font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  width: 79px;
+  height: 65px;
+  background-color: #3B71B7;
+}
+h1{
+  font-size: 30px;
+  color: white;
+  font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+}
+
+
+
+.descBtn {
+    margin-left: -15px;
+    color:#ffffff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-size: 16px;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    margin-top: 46px;
+    cursor: pointer;
+}
+.descBtn {
+    position: relative;
+    display: inline-block;
+    transition: all 1.3s ease-out; 
+}
+
+.dropDescContent{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropDescContent p {
+    color: #ffffff;
+    padding: 16px 0px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+    width: 500px;
+    word-break: break-word;
+    
+}
+.dropDescContent.show {
+  display: block;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

@@ -1,0 +1,135 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 100%;
+}
+.favorite_page{
+    color: white;
+    font-size: 16px;
+}
+.dropBtnFilter {
+    background-color: #3B71B7;
+    color:#ffffff;
+    padding: 27px;
+    font-size: 16px;
+    border: none;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    margin-left: 0px;
+    transition: all .3s ease-out;
+}
+.dropDownFilter {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    transition: all .3s ease-out;
+    
+}
+
+.dropContentFilter{
+    width: 392px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 27px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    transition: all .3s ease-out;
+}
+
+.dropContentFilter p {
+    color: #191919;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+}
+
+.dropContentFilter p:hover 
+{
+    cursor: pointer;
+    background-color: #F39200;
+    color: white;
+}
+
+.dropDownFilter:hover .dropContentFilter 
+{
+    display: block;
+    cursor: pointer;
+}
+
+.dropDownFilter:hover .dropBtnFilter 
+{
+   background-color: #3BC8FF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.filters{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+}
+.Filter{
+    background-color: #3B71B7;
+    color:#ffffff;
+    padding: 27px;
+    font-size: 16px;
+    border: none;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    min-width: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: all .3s ease-out;
+}
+.Filter:hover{
+    background-color: #3BC8FF;
+    cursor: pointer;
+}
+.page{
+    margin-top: 104px;
+    margin-bottom: 80px;
+}
+@media(max-width:1190px){
+.cards{
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+}
+}
+@media(max-width:880px){
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+}
+.dropContentFilter{
+    width: 325px;
+}
+.Filter{
+    max-width: 325px;
+    min-width: 325px;
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dropBtnFilter{
+    min-width: 325px;
+    max-width: 325px;
+}
+}
+@media(max-width:585px){
+    .cards{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+    padding: 40px 40px 40px 40px;
+    }
+    .favorite_page{
+        margin-left: 5px;
+    }
+}

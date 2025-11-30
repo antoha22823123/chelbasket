@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding: 0 20px;
+  background-color: #3B71B7;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+}
+
+.dropDown {
+  position: relative;
+  transition: all .3s ease-out;
+}
+
+.dropBtn {
+  background-color: #3B71B7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition: all .3s ease-out;
+  
+}
+
+.dropContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: all .3s ease-out;
+}
+
+.dropDown:hover .dropContent {
+  display: block;
+}
+.center a:hover{
+  text-decoration: underline;
+}
+.dropContent a {
+  color: #191919;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropContent a:hover {
+  background-color: #F39200;
+  color: white;
+  transition: all .3s ease-out;
+}
+
+.rightHd {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.burger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .center {
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #3B71B7;
+    gap: 0;
+    padding: 10px 0;
+    z-index: 100;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 120px;
+  }
+
+  .rightHd img {
+    width: 22px;
+    height: 22px;
+  }
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: #191919;
+}
+
+.Nomer{
+    background-color: #191919;
+    width: 560px;
+    height: 32px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.Parol{
+    background-color: #191919;
+    width: 560px;
+    height: 32px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-top: 40px;
+}
+.button_enter{
+    width: 560px;
+    height: 45px;
+    background-color: #F39200;
+    color: #FBFBFB;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all .3s;
+    outline: none;
+    border: none;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+}
+.button_enter:hover,
+.button_enter:focus{
+
+   
+    background-color: #E94E1B;
+}
+.autho_form{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.button_swap{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.button_enter_swap{
+    width: 98px;
+    height: 35px;
+    background-color: #3B71B7;
+    color: #FBFBFB;
+    outline: none;
+    border:  none;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+    
+}
+.buttont_reg_swap{
+    width: 230px;
+    height: 35px;
+    background-color: #191919;
+    border: 1 solid white;
+    color: #FBFBFB;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: var(--font-palui), sans-serif;
+    font-weight: 700;
+}
