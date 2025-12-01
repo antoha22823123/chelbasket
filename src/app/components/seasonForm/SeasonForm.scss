@@ -1,0 +1,19 @@
+.season-form {
+  width: 1160px;
+  margin: 0 auto;
+  color: white;
+
+  .content-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .action-button {
+    width: 100%;
+    background: #F39200;
+    color: white;
+    border: none;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+}

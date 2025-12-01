@@ -1,0 +1,25 @@
+.info-block {
+  color: white;
+  padding: 60px 0;
+
+  .marquee-strip {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .marquee-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: var(--font-palui);
+  }
+  h4 {
+    font-size: 30px;
+    font-family: var(--font-visby);
+  }
+}

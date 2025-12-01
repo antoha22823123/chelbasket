@@ -1,0 +1,22 @@
+.hero {
+  height: 95vh;
+  background: url("../../../../public/img/bg1.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  .content {
+    h1 {
+      font-size: 6rem;
+      margin: 0;
+      font-family: var(--font-palui);
+    }
+
+    span {
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 0;
+    }
+  }
+}
