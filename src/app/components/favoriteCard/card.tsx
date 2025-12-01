@@ -15,7 +15,7 @@ export default function Card({img, name, cost, alt}:IPropsCard) {
 
         <Image className="product" src={img} alt={alt} />
         <div className="card-text">
-            <p className="name-product">{name}</p>
+            <h3 className="name-product">{name}</h3>
             <p className="cost-product">{cost}</p>
         </div>
         <button className="cardbut" >В КОРЗИНУ</button>

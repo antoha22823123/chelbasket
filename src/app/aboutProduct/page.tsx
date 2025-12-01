@@ -6,6 +6,7 @@ import './aboutProduct.scss'
 import SliderProduct from "../components/sliderProduct/sliderProduct";
 import Link from "next/link";
 import { useState } from "react";
+import Footer from "../components/footer/footer";
 
 export default function AboutProduct() {
     const [open, setOpen] = useState(false);
