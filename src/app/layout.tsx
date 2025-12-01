@@ -6,6 +6,8 @@ import Header from "./components/header/header";
 import Image from "next/image";
 import {Telegram, Logo, Vk, Youtube} from "../../img"
 import Footer from "./components/footer/footer";
+import { use } from "react";
+import FooterWrapper from "./components/footerWrapper/FooterWrapper";
 
 const paluiBold = localFont({
   src: "./fonts/PaluiSPDemo-Bold.otf",
@@ -54,7 +56,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <Footer/>
+        <FooterWrapper/>
       </body>
     </html>
   );

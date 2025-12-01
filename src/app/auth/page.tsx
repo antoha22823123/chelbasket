@@ -15,8 +15,8 @@ export default function Auth() {
         </div>
         <div className="autho_form">
             <form action="">
-                <input className="Nomer" type="tel"  placeholder="Номер телефона"/><br />
-                <input className="Parol" type="password" placeholder="Пароль"/> <br />
+                <input className="Nomer" type="tel"  placeholder="Номер телефона" required/><br />
+                <input className="Parol" type="password" placeholder="Пароль" required/> <br />
                 <button className="button_enter">Войти</button>
             </form>
         </div>

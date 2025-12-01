@@ -1,7 +1,6 @@
 body{
     background-color: #191919;
 }
-
 .button_enter_swap_reg{
     width: 98px;
     height: 35px;
@@ -10,7 +9,7 @@ body{
     outline: none;
     border: 1 solid white;
     cursor: pointer;
-        font-family: var(--font-palui), sans-serif;
+    font-family: var(--font-palui), sans-serif;
     font-weight: 700;
 }
 .buttont_reg_swap_reg{
@@ -23,14 +22,12 @@ body{
         font-family: var(--font-palui), sans-serif;
     font-weight: 700;
 }
-
 .reg_form{
     width: 600px;
     height: 600px;
     margin: 0 auto;
     margin-top: 80px;
 }
-
 .button_enter{
     width: 560px;
     height: 45px;
@@ -44,16 +41,8 @@ body{
     border: none;
 }
 .button_enter:hover{
-
-   
     background-color: #E94E1B;
 }
-
-
-
-//
-
-
 .FIO{
     background-color: #191919;
     width: 560px;
@@ -89,7 +78,6 @@ body{
     border-bottom: 2px solid gray;
     margin-top: 40px;
 }
-
 .button_enter{
     width: 560px;
     height: 45px;
@@ -103,18 +91,14 @@ body{
     border: none;
 }
 .button_enter:hover{
-
-   
     background-color: #E94E1B;
 }
-
 .button_swap{
     width: 400px;
     height: 40px;
     margin: 0 auto;
     margin-top: 200px;
 }
-
 .Checkbox_reg{
     width: 560px;
     height: 48px;
@@ -124,7 +108,6 @@ body{
     margin-left: -0px;
     margin-top: 87px;
 }
-
 .checkbox_input{
     width: 70px;
     height: 70px;
@@ -132,8 +115,7 @@ body{
     color: lightslategray;
     border: 1px solid #FBFBFB;
     background-color: #191919;
-    
-    
+    cursor: pointer;
 }
 .lable_box{
     color: gray;
