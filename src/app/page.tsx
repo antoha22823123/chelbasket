@@ -5,7 +5,7 @@ import Product from "./components/product/Product";
 
 export default function Home() {
   return (
-    <div>
+    <div className="main">
       <Hero />
       <InfoBlock />
       <NewCollection />
