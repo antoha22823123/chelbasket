@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import {Telegram, Logo, Vk, Youtube} from "../../../../img"
+import {telegramIcon, logoSvg, vk, youtubeIcon,
+} from "../../../../img"
 
 export default function Footer() {
 
@@ -9,7 +10,7 @@ export default function Footer() {
 <footer>
           <div className="normalization-of-position">
             <div className="left-content">
-              <Image src={Logo} alt="logo" width={200}></Image>
+              <Image src={logoSvg} alt="logo" width={200}></Image>
               <p className="label-text">Станьте тем, кто первый узнает об обновлениях в коллекциях</p>
               <input className="E-mail" type="text" placeholder="E-mail" required/>
               <p className="opacity-text">Указывая E-mail вы соглашаетесь на рассылку</p>
@@ -30,9 +31,9 @@ export default function Footer() {
               <p>2025</p>
               <p>Политика конфиденциальности</p>
               <div className="img_footer">
-                <a href="https://web.telegram.org/k/"><Image src={Vk} alt="telegram" width={25}></Image></a>
-                <Image src={Youtube} alt="telegram" width={25}></Image>
-                <Image src={Telegram} alt="telegram" width={25}></Image>
+                <a href="https://web.telegram.org/k/"><Image src={vk} alt="telegram" width={25}></Image></a>
+                <Image src={youtubeIcon} alt="telegram" width={25}></Image>
+                <Image src={telegramIcon} alt="telegram" width={25}></Image>
               </div>
             </div>
           </div>

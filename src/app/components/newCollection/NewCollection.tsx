@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import sweetshot from "../../../../public/img/51.png"
-import tsorts from "../../../../public/img/52.png"
+import {img51, img52
+} from "../../../../img"
 import "./NewCollection.scss"
 import { format } from "path";
 const NewCollection = () => {
@@ -21,13 +21,13 @@ const NewCollection = () => {
             </h4>
         </div>
         <div className="item1">
-                <Image src={sweetshot} alt="кофта"></Image>
+                <Image src={img51} alt="кофта"></Image>
         </div>
         </div>
         <div className="right-content">
             <div className="items">
             <div className="item2">
-                <Image src={tsorts} alt="футболка"></Image>
+                <Image src={img52} alt="футболка"></Image>
             </div>
         </div>
         </div>

@@ -2,34 +2,31 @@
 
 import CatalogCard from '../components/catalogCard/catalogCard';
 import './catalog.scss';
-import ball from "../../../public/img/ballsantols.svg";
-import chel from "../../../public/img/nigerforma.svg";
-import mayka from "../../../public/img/maika.svg";
 import suvenir from "../../../public/img/suvenir.svg";
-import tshirt from "../../../public/img/nigerfootballka.svg";
-import cofta from "../../../public/img/nigerspina.svg";
-import cal from "../../../public/img/tatooha.svg";
+import {ballsantols, nigerforma, maika, nigerfootballka, nigerspina, tatooha
+} from "../../../img"
+
 
 export default function Card() {
        const cardData = [
         {
             id: 1,
             name:"МЯЧИ",
-            img: ball,
+            img: ballsantols,
             link: '/ball',
             alt: "МЯЧИ",
         },
         {
             id: 2,
             name:"ФОРМА",
-            img: chel,
+            img: nigerforma,
             link: '/ball',
             alt: "ФОРМА",
         },
         {
             id: 3,
             name:"МАЙКИ",
-            img: mayka,
+            img: maika,
             link: '/ball',
             alt: "МАЙКИ",
         },
@@ -43,21 +40,21 @@ export default function Card() {
         {
             id: 5,
             name:"ФУТБОЛКИ",
-            img: tshirt,
+            img: nigerfootballka,
             link: '/ball',
             alt: "ФУТБОЛКИ",
         },
         {
             id: 6,
             name:"КОФТЫ",
-            img: cofta,
+            img: nigerspina,
             alt: "КОФТЫ",
             link: '/ball'
         },
         {
             id: 7,
             name:"НОВАЯ КОЛЛЕКЦИЯ",
-            img: cal,
+            img: tatooha,
             alt: "НОВАЯ КОЛЛЕКЦИЯ",
             link: '/ball'
         },

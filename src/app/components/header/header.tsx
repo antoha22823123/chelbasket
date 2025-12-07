@@ -2,11 +2,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../../../public/img/logo.svg";
-import Search from "../../../../public/img/search.svg";
-import Personal from "../../../../public/img/лк.svg";
-import Cart from "../../../../public/img/корзина.svg";
 import styles from "./header.module.scss";
+import {logoSvg, search, lk, basket
+} from "../../../../img"
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +12,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link href={"/"}>
-        <Image src={Logo} alt="logo" className={styles.logo} />
+        <Image src={logoSvg} alt="logo" className={styles.logo} />
       </Link>
 
       <nav className={`${styles.center} ${menuOpen ? styles.open : ""}`}>
@@ -30,10 +28,10 @@ export default function Header() {
       </nav>
 
       <div className={styles.rightHd}>
-        <Image src={Search} alt="search" />
-        <Image src={Cart} alt="Корзина" />
+        <Image src={search} alt="search" />
+        <Image src={basket} alt="Корзина" />
         <Link href={"/auth"}>
-          <Image src={Personal} alt="Личный кабинет" />
+          <Image src={lk} alt="Личный кабинет" />
         </Link>
         <button className={styles.burger} onClick={() => setMenuOpen(!menuOpen)}>
           &#9776;

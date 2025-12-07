@@ -1,8 +1,10 @@
 "use client";
 import Image from "next/image";
-import komanda from "../../../../public/img/59.png"
 import man from "../../../../public/img/photo_2_2025-12-02_00-57-04.jpg"
 import blackMan from "../../../../public/img/photo_1_2025-12-02_00-57-04.jpg"
+import {img59
+} from "../../../../img"
+
 
 const SeasonForm = () => {
   return (
@@ -13,7 +15,7 @@ const SeasonForm = () => {
                 <Image src={man} alt="кофта"></Image>
             </div>
             <div className="img-bottom">
-                <Image src={komanda} alt="кофта"></Image>
+                <Image src={img59} alt="кофта"></Image>
             </div>
         </div>
         <div className="right-column">
